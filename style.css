@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+}
+
+.grid {
+    display: grid;
+    height: 936px;
+    grid-template-columns: minmax(672px, 672px) 40%;
+    grid-column-gap: 15px;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    font-family: "Lato", sans-serif;
+}
+
+.QBimg {
+    grid-area: 1 / 1 / 7 / 1
+}
+
+.grid-item {
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    border: 1px grey dashed;
+}
+
+.rules {
+    font-family: "Lato", sans-serif;
+}
+
+
+/* .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+  } */
